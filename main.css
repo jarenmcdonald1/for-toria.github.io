@@ -46,22 +46,41 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-h1,h2,h3,h4 {
-    font-family: 'Josefin Slab', Georgia, 'Times New Roman', Times, serif;
-}
-h1 {
-    font-size: x-large;
-}
-
 
 /* user styles */
 body {
     background-image: url("images/watercolor.webp");
     background-repeat: repeat;
 }
+h1,h2,h3,h4 {
+    font-family: 'Josefin Slab', Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 1.15;
+}
+h1 {
+    font-size: 2.75em;
+}
+h3 {
+    font-size: 2.25em;
+}
 .full {
     height: 98vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2em 8em;
+}
+.text-box {
+    background: rgba(250,250,250,0.95);
+    padding: 1em 1.25em;
+    border-radius: 0.08em;
+    box-shadow: 8px 7px 12px lightslategray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    color: inherit;
 }
